@@ -13,15 +13,15 @@
 </head>
 <body>
     
-    <section class="hidden" id="page">
+    <section class="hidden default_page" id="page">
         <header class="navbar">
             <h1 id="name" >Parishk-Chauhan</h1>
             <nav>
                 <ul class="nav_links">
-                    <li></li><a href="#" class="links" id="about">about</a></li>
-                    <li></li><a href="#" class="links" id="home">home</a></li>
-                    <li></li><a href="#" class="links" id="work">work</a></li>
-                    <li></li><a href="#" class="links" id="contact">contact</a></li>
+                    <li><a href="#page1" class="links" id="about">about</a></li>
+                    <li><a href="#page" class="links" id="home">home</a></li>
+                    <li><a href="#page2" class="links" id="work">work</a></li>
+                    <li><a href="#page3" class="links" id="contact">contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -34,7 +34,7 @@
                     <p id="description"> "Brace yourself, the code puns are coming. But don't worry, I promise they won't byte...too hard." </p>
                 </div>
             </div>
-            <img class="image" src="/images/image_astranaut.png" alt="">
+            <img class="image" src="images/image_astranaut.png" alt="">
         </div>
 
         
@@ -43,7 +43,7 @@
 
 
 
-    <section class="hidden" id="page1">
+    <section class="hidden default_page" id="page1">
        <div>
         <h1 id="heading_about">./about</h1>
        </div>
@@ -72,7 +72,7 @@
     </section>
 
 
-    <section class="hidden" id="page2">
+    <section class="hidden default_page" id="page2">
 
         <h1 id="heading_projects">   ./projects </h1>
 
@@ -81,7 +81,7 @@
                 <h2 class="dev_type">Web-Dev <br> Projects</h2>
                 <p class="para_project">Behold! The websites I crafted with my bare hands and a keyboard!</p>
                 <div class="button">
-                    <a href="web.html">SEE MY WORK</a>
+                    <a href="index.html">SEE MY WORK</a>
                 </div>
             </div>
             <div class="quote">
@@ -98,7 +98,7 @@
 
 
 
-    <section class="hidden" id="page3">
+    <section class="hidden default_page" id="page3">
         <div class="contact">
             <form onsubmit="sendEmail(); reset(); return false;">
                 <h3>Send a Message</h3>
@@ -125,7 +125,7 @@
 
 
 
-    <section class="hidden" id="page4">
+    <section class="hidden default_page" id="page4">
         <div class="myself">
             <div id="say_hello"  class="mail_whatsapp">
                 <h3 id="prompt">SAY HELLO</h3>
@@ -135,9 +135,9 @@
             </div>
 
             <div class="resume" id="personal">
-                <a class="personal_links" href="">My Work</a>
+                <a class="personal_links" href="#page2">My Work</a>
                 <a class="personal_links" href="">My Resume</a>
-                <a class="personal_links" href="">My Self</a>
+                <a class="personal_links" href="#page1">My Self</a>
             </div>
         </div>
         <hr id="line">
