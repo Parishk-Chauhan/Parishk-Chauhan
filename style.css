@@ -3,9 +3,12 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
 }
 
-
+#project_link{
+    color: #ccf381;
+}
 
 html,body{
     height: 100%;
